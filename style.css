@@ -6,21 +6,27 @@ body {
 	line-height: 150%;
 	font-family: "Georgia";
 	color: #333333;
+	font-family: 'PT Serif', serif;
+
 }
 header {
 	background: #d21034;
 }
 h1 {
 	background: #333333;
+	font-family: 'Roboto Condensed', sans-serif;
 	padding: 20px 0;
 	color: #eee;
 	margin: 0;
-	font-size: 28px;
+	font-size: 30px;
+	line-height: 45px;
 	text-align: center;
 	margin-bottom: 20px;
 }
 h2 {
-	font-size: 24px;
+	font-size: 25px;
+	line-height: 30px;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 a {
 	color: #d21034;
