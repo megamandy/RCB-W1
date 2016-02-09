@@ -2,7 +2,9 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>About | Amanda Cobbs</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -10,33 +12,64 @@
 <body>
 	<header id="masthead">
 		<div class="container">
-			<a href="index.html" id="logo">Amanda Cobbs</a>
+			<!--FIRST "NAME" ROW -->
+			<div class="row">
+				<div class="col-md-12">
+				<a href="index.html" id="logo">Amanda Cobbs</a>
+				</div>
+			</div>
+
+			<!--SECOND "LINKS" ROW -->
+			<div class="row">
 			<nav>
-				<a href="index.html">About</a>
-				<a href="portfolio.html">Portfolio</a>
-				<a href="contact.html">Contact</a>
+				<div class="col-sm-4">
+					<a href="index.html">About</a></div>
+				<div class="col-sm-4">
+					<a href="portfolio.html">Portfolio</a></div>
+				<div class="col-sm-4">
+					<a href="contact.html">Contact</a></div>
 			</nav>
+			</div>
 		</div>
 	</header>
 	<div id="main-container" class="container">
 		<section class="main-section">
-			<h1>About Me</h1>
-			<img src="assets/images/prof.jpg" class="auth-image" alt="Amanda Cobbs">
+
+
+			<!-- THIRD  "ABOUT ME + PICTURE "  ROW -->
+			<BR>
+			<div class="row">
+				<div class="col-md-12"><h1>About Me</h1></div>
+				<div class="col-md-12">
+				<img src="assets/images/prof.jpg" class="auth-image" alt="Amanda Cobbs"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
 				<p><em>I was first introduced to code when I was in high school and I would pull the source from websites I liked to make my Xanga (blog) more stylish. Before that, in 8th grade I remember coming home from school to watch TechTV.</em></p>
 				<p><b>Now, I'm currently 27 years old and learning to code so that I can mesh art and indie comics into phone apps and video games.</b> In my free time I do freelance illustration and I hope to create games with complex fantasy stories for all ages to enjoy.</p>
-				<p><strong><u>My Major Influences:</strong></u> Square-Enix, Marvel Entertainment, DC Entertainment, Hayao Miyazaki. </p>
+				<p><strong><u>My Major Influences:</strong></u> Square-Enix, Marvel Entertainment, DC Entertainment, Hayao Miyazaki. </p></div>
+			</div>
 		</section>
 
 		<section class="sidebar">
+			<!-- FOURTH "CONNECT WITH ME" ROW -->
+
+
+		<div class="row">
 			<div id="connect">
+				<div class="col-md-12"><h2>Connect with Me</h2></div>
 
-				<h2>Connect with Me</h2>
-				<img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_circle_black-128.png" class="social" alt="Github">
-
+				<div class="col-xs-4">
+					<img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_circle_black-128.png" class="social" alt="Github">
+				</div>
+				<div class="col-xs-4">
 				<img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/51-linkedin-128.png" class="social" alt="LinkedIn">
-
+				</div>
+				<div class="col-xs-4">
 				<img src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/stackoverflow-128.png" class="social" alt="Stack Overflow">
+				</div>
 			</div>
+		</div>
 		</section>
 	</div>
 	<footer>
