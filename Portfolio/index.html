@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-			<title>A.Co</title>
-			<link rel="stylesheet" href="assets/css/style.css" type="text/css"> 
-			<link rel="stylesheet" href="assets/css/reset.css" type="text/css"> 
-	<header>
-		<div id="name">Amanda Cobbs</div>
-		<div id="links">
-				<a href="index.html">About</a>&nbsp; .
-				<a href="portfolio.html">Portfolio</a>&nbsp; .
-				<a href="contact.html">Contact</a>&nbsp; .
+	<meta charset="UTF-8">
+	<title>About | Amanda Cobbs</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">Amanda Cobbs</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
 		</div>
 	</header>
-</head>
-<body>
-		<div class="container">
-				<div id="About-Me"><strong>About Me</strong>
-				</div>
-				<br>
-				<hr>
-				<br>
-				<div class="image"><img src="assets/images/prof.jpg" width="200" height="200" align-text="Left"></div>
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1>About Me</h1>
+			<img src="assets/images/prof.jpg" class="auth-image" alt="Amanda Cobbs">
 				<p><em>I was first introduced to code when I was in high school and I would pull the source from websites I liked to make my Xanga (blog) more stylish. Before that, in 8th grade I remember coming home from school to watch TechTV.</em></p>
 				<p><b>Now, I'm currently 27 years old and learning to code so that I can mesh art and indie comics into phone apps and video games.</b> In my free time I do freelance illustration and I hope to create games with complex fantasy stories for all ages to enjoy.</p>
 				<p><strong><u>My Major Influences:</strong></u> Square-Enix, Marvel Entertainment, DC Entertainment, Hayao Miyazaki. </p>
-		</div>
-		<div id="sidebar">
-				<div class="connect-with-me"><strong>Connect with Me</strong></div>
-				<br>
-				<hr>
-				<br>
-				<a href="https://github.com/megamandy/">
-					<img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_circle_black-128.png" width="50" height="50"></a>
-				<a href="linkedin.com">
-					<img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/51-linkedin-128.png" width="50" height="50"></a>
-				<a href="stackoverflow.com">
-					<img src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/stackoverflow-128.png" width="50" height="50"></a>
-		</div>
-</body>
+		</section>
 
-<footer>
-	&copy; Copyright 2016 Amanda Cobbs
-</footer>
+		<section class="sidebar">
+			<div id="connect">
+
+				<h2>Connect with Me</h2>
+				<img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_circle_black-128.png" class="social" alt="Github">
+
+				<img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/51-linkedin-128.png" class="social" alt="LinkedIn">
+
+				<img src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/stackoverflow-128.png" class="social" alt="Stack Overflow">
+			</div>
+		</section>
+	</div>
+	<footer>
+		<div class="container">
+			&copy; Copyright 2016 Amanda Cobbs
+		</div>
+	</footer>
+</body>
 </html>
