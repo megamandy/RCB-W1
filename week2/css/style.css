@@ -10,9 +10,6 @@ min-height: 100px;
 
 body {
 	background-color: #f1f1f1;
-	font-family: 'PT Serif', serif;
-	font-size: 20px;
-	line-height: 25px;
 }
 
 #main-section {
@@ -26,18 +23,8 @@ body {
 	margin: 0 auto;
 }
 #sidebar {
-	background-color: #dddddd;
-	floats: right;
+	background-color: #ddd;
+	floats: right
 	width: 35%;
 	padding: 30px;
-}
-h1 {
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size:30px;
-	line-height: 45px;
-}
-h2 {
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 25px;
-	line-height: 30px;
 }
