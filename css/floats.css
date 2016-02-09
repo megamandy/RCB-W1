@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+}
+
+
+header {
+	background-color: #ccc;
+	padding: 24px;
+	text-align: center;
+}
+
+h1 {
+	background-color: #666;
+	padding: 24px;
+	text-align: center;
+	float: left;
+}
+
+h2 {
+	background-color: #888;
+	padding: 24px;
+	text-align: center;
+	float:left;
+}
+
+h3 {
+	background-color: #666;
+	padding: 24px;
+	text-align: center;
+	float: left;
+}
+
+.p1 {
+	background-color: #fff;
+	padding: 24px;
+	text-align: center;
+}
+
+.p2 {
+	background-color: #eee;
+	padding: 24px;
+	text-align: center;
+}
+
+.p3 {
+	background-color: #6ea3da;
+	padding: 24px;
+	text-align: center;
+}
+
+footer {
+	background-color: #ccc;
+	padding: 24px;
+	text-align: center;
+	clear: both;
+}

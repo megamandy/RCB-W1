@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+#main-header {
+background-color: #ddd;
+margin-bottom: 30px;
+min-height: 100px;
+}
+
+body {
+	background-color: #f1f1f1;
+}
+
+#main-section {
+	background-color: #ddd
+	floats: left;
+	width: 60%;
+	padding: 30px;
+}
+.wrapper {
+	width: 1024px;
+	margin: 0 auto;
+}
+#sidebar {
+	background-color: #ddd;
+	floats: right
+	width: 35%;
+	padding: 30px;
+}
