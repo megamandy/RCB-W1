@@ -2,16 +2,20 @@
 <html>
 <head>
   <title>
-    Sushi
+    Steak
   </title>
 </head>
 <body>
   <script type="text/javascript">
-    var likesushi=confirm("Do you like sushi?");
-    var kindofsushi=prompt("What kind of sushi do you like");
-    alert(likesushi);
-    alert(kindofsushi);
+    var confirmSteak = confirm("Do you eat steak?");
+    if (confirmSteak) {
+      document.write("Here's a steak sandwich!");
+  }
+  else // (!confirmSteak) 
+  {
+    document.write("Here's a tofu stir fry!")
+  }
+</script>
 
-  </script>
 </body>
 </html>
