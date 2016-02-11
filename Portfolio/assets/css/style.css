@@ -299,13 +299,61 @@ input[type=submit] {
 
 
 @media screen and (max-width: 640px) {
+	#container {
+		width: 100%;
+	}
 
+	#main-container {
+		width:100%;
+		font-size:12px;
+		margin-top: 25px;
+	}
+
+	.auth-image {
+		width: 100%;
+
+	}
+
+	body {
+		width:100%;
+		font-size:14px;
+		position: relative;
+	}
+	h2 {
+		width: 100%;
+		font-size: 28px;
+		text-align: center;
+	}
+	nav {
+		width: 100px;
+		text-align: center;
+	
+	}
 	#masthead {
 		position: static;
+		font-size: 100%;
+		text-align: center;
 	}
 
 	.sidebar {
 		width: 100%;
+		float: left;
+		position: relative;
+		left: 35px;
+	}
+	#connect {
+		width: 100px;
+		left: 35px;
+		float: left;
+	}
+	#social {
+		width: 100%;
+	}
+
+	#logo {
+		text-align: center;
+		font-size: 30px;
+		width: 100px;
 	}
 
 }
