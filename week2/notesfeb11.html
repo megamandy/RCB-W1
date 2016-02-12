@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+
+Find a partner.
+Count 1, 2, 3...
+Say "Shoot!"
+Pick rock, paper, or scissor.
+Someone wins!
+
+*If partner's draw same hand, replay until mismatched occurs.
+
+Rock = closed fist.
+Paper = flat open hand.
+Scissor = index + middle finger sideways peace sign.
+
+
+Rock > Scissor
+Scissor > Paper
+Paper > Rock.
+
+Keep score.
+
+
+.KeyCode assigns number value to key strokes. 
+Math.random --> random # between 0 + 1. "FLOOR" always takes the next integer down.  **ALWAYS ROUND DOWN***
+
+
+if ....
+
+<script type="text/javascript">
+document.onkeyup = function () {
+	alert("press a button")
+}
+</script>
+------------------------------------------
+<script type="text/javascript">
+document.onkeyup = function(event) {
+	var userGuess = String.fromCharCode(event/keyCode).toLowerCase();
+
+	alert(userGuess);
+}
+
+</script>
+
+
+****************
+
+<script type="text/javasceipt">
+var computerChoices = ['r', 'p', 'p'];
+var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+
+alert("computer guess: " = computerGuess);
+
+</script>
+
+-----------------------------------
+else part would include an alert("please pick a r p or s")
+
+
+---------------------------
+WHAT THE FULL JAVASCRIPT/PAGE WOULD LOOK LIKE IS LOOKING LIKE:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock Paper Scissors Part 1</title>
+</head>
+<body>
+
+<div id="game">
+
+</div>
+<script type="text/javascript">
+
+var computerChoices = ['r', 'p', 's'];
+
+document.onkeyup = function(event) {
+	var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
+
+	if ((userGuess == 'r') || (userGuess == 'p') || (userGuess =='s')){
+		document.querySelector("#game");
+	;
+
+}
+
